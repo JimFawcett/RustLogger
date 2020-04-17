@@ -12,4 +12,4 @@ doctest = false
 
 [dependencies]
 chrono = "0.2.16"
-display = { path = "../display" }
+display = { path = "../RustBasicDemos/display" }
