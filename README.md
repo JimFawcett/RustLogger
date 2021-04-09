@@ -46,7 +46,8 @@ There is one struct, Logger, with methods and several functions in this design:
 ### Functions:
 
     1. open_file(s:&str, mode:OpenMode) -> Option<File>
-        Opens file with OpenMode::Append or OpenMode::Truncate. Returns option that may be used with Logger::opt(f:Option<File>).
+        Opens file with OpenMode::Append or OpenMode::Truncate. 
+        Returns option that may be used with Logger::opt(f:Option<File>).
     
     2. file_exists(s:&str) -> bool
         Does this file exist?
