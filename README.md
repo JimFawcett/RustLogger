@@ -5,17 +5,22 @@ https://JimFawcett.github.io/RustLogger.html
 Simple logger that writes text to console, file, or both.
 
 
-Concept:
+## Concept:
 RustLogger is a facility for inserting time-date stamped string messages into the console and/or a text file concurrently.
-Design:
+
+## Design:
 There is one struct, Logger, with methods and several functions in this design:
+
 Methods:
     1. new() -> Self
         Create new Logger which has no attached file and writes to console.
+        
     2. init(f:File, con:bool) -> Self
         Create new Logger attached to f and writes to console only if con is true.
+        
     3. console(&mut self, con:bool)
         sets console writing to true or false.
+        
     file(&mut self, f:File)
     Sets or resets log file f.
     opt(&mut self, f:Option<File>
