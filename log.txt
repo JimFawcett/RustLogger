@@ -1,7 +1,7 @@
 
-  Tue, 14 Apr 2020 20:21:28
+  Mon, 11 May 2020 16:02:30
   starting log
   first entry, second entry, third entry
-  Tue, 14 Apr 2020 20:21:28
+  Mon, 11 May 2020 16:02:30
   reopening log
   after reopen
