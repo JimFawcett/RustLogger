@@ -67,5 +67,11 @@ fn main() {
         let s = format!("\n  did not find {:?} in {:?}", test_string, log_file_name);
         err_log.write(&s);
     }
+    printline();
+    let s = format!("contents of {}", log_file_name);
+    sub_title(&s);
+    file_contents(log_file_name);
+    putline();
+
     println!("\n\n  That's all Folks!\n");
 }
